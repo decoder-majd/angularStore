@@ -1,0 +1,24 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="https://cdn0.iconfinder.com/data/icons/user-icon-profile-businessman-finance-vector-illus/100/19-1User-512.png" id="icon" alt="User Icon" class="img-fluid"/>
+    </div>
+    <br><br>
+    <form (ngSubmit)="onSignUp(f)"#f="ngForm">
+      <input type="text" id="login" class="fadeIn second" name="name" placeholder="login">
+      <br><br>
+      <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+      <br><br>
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <br>
+  </div>
+</div>
